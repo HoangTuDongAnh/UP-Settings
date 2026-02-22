@@ -1,0 +1,11 @@
+﻿{
+  "name": "HTDA.Framework.Settings.Editor.IAP",
+  "rootNamespace": "HTDA.Framework.Settings.Editor.IAP",
+  "references": [
+    "HTDA.Framework.Settings.Core",
+    "HTDA.Framework.Settings.IAP",
+    "HTDA.Framework.Settings.Editor.Core"
+  ],
+  "includePlatforms": [ "Editor" ],
+  "autoReferenced": true
+}

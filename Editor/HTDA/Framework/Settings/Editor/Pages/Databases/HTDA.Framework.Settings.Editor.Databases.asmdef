@@ -1,0 +1,11 @@
+﻿{
+  "name": "HTDA.Framework.Settings.Editor.Databases",
+  "rootNamespace": "HTDA.Framework.Settings.Editor.Databases",
+  "references": [
+    "HTDA.Framework.Settings.Core",
+    "HTDA.Framework.Settings.Databases",
+    "HTDA.Framework.Settings.Editor.Core"
+  ],
+  "includePlatforms": [ "Editor" ],
+  "autoReferenced": true
+}

@@ -1,9 +1,9 @@
 {
-  "name": "HTDA.Framework.Template.Editor.Tests",
-  "rootNamespace": "HTDA.Framework.Template.Editor.Tests",
+  "name": "HTDA.Framework.Settings.Editor.Tests",
+  "rootNamespace": "HTDA.Framework.Settings.Editor.Tests",
   "references": [
-    "HTDA.Framework.Template",
-    "HTDA.Framework.Template.Editor"
+    "HTDA.Framework.Settings",
+    "HTDA.Framework.Settings.Editor"
   ],
   "includePlatforms": [
     "Editor"

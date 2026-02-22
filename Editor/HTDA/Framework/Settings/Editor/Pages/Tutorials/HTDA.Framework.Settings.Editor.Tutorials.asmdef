@@ -1,0 +1,11 @@
+﻿{
+  "name": "HTDA.Framework.Settings.Editor.Tutorials",
+  "rootNamespace": "HTDA.Framework.Settings.Editor.Tutorials",
+  "references": [
+    "HTDA.Framework.Settings.Core",
+    "HTDA.Framework.Settings.Tutorials",
+    "HTDA.Framework.Settings.Editor.Core"
+  ],
+  "includePlatforms": [ "Editor" ],
+  "autoReferenced": true
+}

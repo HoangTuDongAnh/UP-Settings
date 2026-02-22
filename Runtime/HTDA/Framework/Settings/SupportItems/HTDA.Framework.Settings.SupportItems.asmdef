@@ -1,0 +1,11 @@
+﻿{
+  "name": "HTDA.Framework.Settings.SupportItems",
+  "rootNamespace": "HTDA.Framework.Settings.SupportItems",
+  "references": [
+    "HTDA.Framework.Core",
+    "HTDA.Framework.Settings.Core"
+  ],
+  "includePlatforms": [],
+  "excludePlatforms": [],
+  "autoReferenced": true
+}

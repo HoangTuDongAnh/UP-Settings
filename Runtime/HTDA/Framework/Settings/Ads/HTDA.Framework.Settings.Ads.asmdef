@@ -1,0 +1,10 @@
+﻿{
+  "name": "HTDA.Framework.Settings.Ads",
+  "rootNamespace": "HTDA.Framework.Settings.Ads",
+  "references": [
+    "HTDA.Framework.Core",
+    "HTDA.Framework.Settings.Core"
+  ],
+  "includePlatforms": [],
+  "autoReferenced": true
+}

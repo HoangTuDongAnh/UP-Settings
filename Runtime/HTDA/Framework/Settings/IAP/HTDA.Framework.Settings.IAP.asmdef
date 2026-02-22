@@ -1,0 +1,10 @@
+﻿{
+  "name": "HTDA.Framework.Settings.IAP",
+  "rootNamespace": "HTDA.Framework.Settings.IAP",
+  "references": [
+    "HTDA.Framework.Core",
+    "HTDA.Framework.Settings.Core"
+  ],
+  "includePlatforms": [],
+  "autoReferenced": true
+}

@@ -1,0 +1,10 @@
+﻿{
+  "name": "HTDA.Framework.Settings.Databases",
+  "rootNamespace": "HTDA.Framework.Settings.Databases",
+  "references": [
+    "HTDA.Framework.Core",
+    "HTDA.Framework.Settings.Core"
+  ],
+  "includePlatforms": [],
+  "autoReferenced": true
+}

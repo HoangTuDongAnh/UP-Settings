@@ -1,0 +1,13 @@
+﻿{
+  "name": "HTDA.Framework.Settings.Editor.Core",
+  "rootNamespace": "HTDA.Framework.Settings.Editor.Core",
+  "references": [
+    "HTDA.Framework.Core",
+    "HTDA.Framework.Settings.Core"
+  ],
+  "includePlatforms": [
+    "Editor"
+  ],
+  "excludePlatforms": [],
+  "autoReferenced": true
+}

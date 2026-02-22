@@ -1,7 +1,7 @@
 #if UNITY_EDITOR
 using NUnit.Framework;
 
-namespace HTDA.Framework.Template.Editor.Tests
+namespace HTDA.Framework.Settings.Editor.Tests
 {
     public class TemplateEditorTests
     {

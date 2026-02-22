@@ -1,0 +1,11 @@
+﻿{
+  "name": "HTDA.Framework.Settings.Editor.Credits",
+  "rootNamespace": "HTDA.Framework.Settings.Editor.Credits",
+  "references": [
+    "HTDA.Framework.Settings.Core",
+    "HTDA.Framework.Settings.Credits",
+    "HTDA.Framework.Settings.Editor.Core"
+  ],
+  "includePlatforms": [ "Editor" ],
+  "autoReferenced": true
+}

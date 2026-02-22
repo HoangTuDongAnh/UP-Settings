@@ -1,0 +1,10 @@
+﻿{
+  "name": "HTDA.Framework.Settings.Tutorials",
+  "rootNamespace": "HTDA.Framework.Settings.Tutorials",
+  "references": [
+    "HTDA.Framework.Core",
+    "HTDA.Framework.Settings.Core"
+  ],
+  "includePlatforms": [],
+  "autoReferenced": true
+}

@@ -1,15 +1,15 @@
-{
-  "name": "HTDA.Framework.Settings.Tests",
-  "rootNamespace": "HTDA.Framework.Settings.Tests",
+﻿{
+  "name": "HTDA.Framework.Settings.Core",
+  "rootNamespace": "HTDA.Framework.Settings.Core",
   "references": [
-    "HTDA.Framework.Settings"
+    "HTDA.Framework.Core"
   ],
   "includePlatforms": [],
   "excludePlatforms": [],
+  "autoReferenced": true,
   "allowUnsafeCode": false,
   "overrideReferences": false,
   "precompiledReferences": [],
-  "autoReferenced": false,
   "defineConstraints": [],
   "versionDefines": [],
   "noEngineReferences": false

@@ -1,0 +1,10 @@
+﻿{
+  "name": "HTDA.Framework.Settings.Credits",
+  "rootNamespace": "HTDA.Framework.Settings.Credits",
+  "references": [
+    "HTDA.Framework.Core",
+    "HTDA.Framework.Settings.Core"
+  ],
+  "includePlatforms": [],
+  "autoReferenced": true
+}

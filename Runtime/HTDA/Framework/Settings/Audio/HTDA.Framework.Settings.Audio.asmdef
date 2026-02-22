@@ -1,0 +1,11 @@
+﻿{
+  "name": "HTDA.Framework.Settings.Audio",
+  "rootNamespace": "HTDA.Framework.Settings.Audio",
+  "references": [
+    "HTDA.Framework.Core",
+    "HTDA.Framework.Settings.Core"
+  ],
+  "includePlatforms": [],
+  "excludePlatforms": [],
+  "autoReferenced": true
+}
