@@ -1,0 +1,28 @@
+{
+  "name": "HTDA.Framework.Settings.Editor",
+  "rootNamespace": "HTDA.Framework.Settings.Editor",
+  "references": [
+    "HTDA.Framework.Settings",
+    "HTDA.Framework.Settings.Editor.Core",
+    "HTDA.Framework.Settings.Editor.Audio",
+    "HTDA.Framework.Settings.Editor.Ads",
+    "HTDA.Framework.Settings.Editor.IAP",
+    "HTDA.Framework.Settings.Editor.Global",
+    "HTDA.Framework.Settings.Editor.Databases",
+    "HTDA.Framework.Settings.Editor.Credits",
+    "HTDA.Framework.Settings.Editor.SupportItems",
+    "HTDA.Framework.Settings.Editor.Tools",
+    "HTDA.Framework.Settings.Editor.Tutorials"
+  ],
+  "includePlatforms": [
+    "Editor"
+  ],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "versionDefines": [],
+  "noEngineReferences": false
+}

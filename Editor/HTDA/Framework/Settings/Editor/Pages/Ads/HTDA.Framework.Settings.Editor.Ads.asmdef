@@ -1,4 +1,4 @@
-﻿{
+{
   "name": "HTDA.Framework.Settings.Editor.Ads",
   "rootNamespace": "HTDA.Framework.Settings.Editor.Ads",
   "references": [
@@ -6,6 +6,8 @@
     "HTDA.Framework.Settings.Ads",
     "HTDA.Framework.Settings.Editor.Core"
   ],
-  "includePlatforms": [ "Editor" ],
+  "includePlatforms": [
+    "Editor"
+  ],
   "autoReferenced": true
 }

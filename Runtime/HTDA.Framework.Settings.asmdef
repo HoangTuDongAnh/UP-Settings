@@ -1,0 +1,24 @@
+{
+  "name": "HTDA.Framework.Settings",
+  "rootNamespace": "HTDA.Framework.Settings",
+  "references": [
+    "HTDA.Framework.Settings.Core",
+    "HTDA.Framework.Settings.Audio",
+    "HTDA.Framework.Settings.Ads",
+    "HTDA.Framework.Settings.IAP",
+    "HTDA.Framework.Settings.Global",
+    "HTDA.Framework.Settings.Databases",
+    "HTDA.Framework.Settings.Credits",
+    "HTDA.Framework.Settings.SupportItems",
+    "HTDA.Framework.Settings.Tutorials"
+  ],
+  "includePlatforms": [],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "versionDefines": [],
+  "noEngineReferences": false
+}

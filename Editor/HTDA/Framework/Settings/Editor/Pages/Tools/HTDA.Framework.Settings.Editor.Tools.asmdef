@@ -1,20 +1,20 @@
-﻿{
+{
   "name": "HTDA.Framework.Settings.Editor.Tools",
   "rootNamespace": "HTDA.Framework.Settings.Editor.Tools",
   "references": [
     "HTDA.Framework.Settings.Core",
     "HTDA.Framework.Settings.Editor.Core",
-
     "HTDA.Framework.Settings.Global",
     "HTDA.Framework.Settings.Audio",
     "HTDA.Framework.Settings.SupportItems",
-
     "HTDA.Framework.Settings.Tutorials",
     "HTDA.Framework.Settings.Ads",
     "HTDA.Framework.Settings.IAP",
     "HTDA.Framework.Settings.Credits",
     "HTDA.Framework.Settings.Databases"
   ],
-  "includePlatforms": [ "Editor" ],
+  "includePlatforms": [
+    "Editor"
+  ],
   "autoReferenced": true
 }
