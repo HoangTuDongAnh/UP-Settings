@@ -1,87 +1,30 @@
-# HTDA Framework – Settings
+# UP-Settings – Documentation
 
-This package provides a **Game Settings** workflow for Unity:
-- Runtime settings stored as ScriptableObject assets
-- Editor window with modular pages
-- Utilities: create assets, validation, import/export JSON
+## 1. Mục tiêu
 
----
+- Chuẩn hoá nơi lưu trữ cấu hình game.
+- Editor UI để chỉnh sửa dễ, giảm hardcode.
 
-## Getting Started
+## 2. Runtime vs Editor
 
-### 1) Install
-Install via Unity Package Manager (Git URL or local path).
+- Runtime asmdef: chứa data/settings dùng khi chạy game.
+- Editor asmdef: chứa UI window, pages, tool.
 
-### 2) Open the window
-Menu: **HTDA → Settings → Game Settings**
+## 3. Page system
 
-### 3) Create default assets
-Go to **Tools** page → click:
-- **Create ALL default assets**
+- Mỗi page tương ứng 1 nhóm settings (Ads/Audio/IAP/Global…)
+- Page được đăng ký qua attribute (SettingsPageAttribute).
 
-Assets are created under the default folder convention defined in:
-- `SettingsEditorPaths.GetDefaultSettingsFolder()`
+Khuyến nghị:
+- Mỗi module settings có 1 ScriptableObject root.
+- Không nhét logic runtime vào Editor assembly.
 
----
+## 4. Workflow gợi ý
 
-## Concepts
+- Tạo folder `Assets/_Game/Settings`
+- Tạo assets cho từng nhóm
+- Bootstrap load/validate, hoặc game systems nhận reference.
 
-### Runtime vs Editor
+## 5. Notes
 
-- **Runtime** settings:
-    - `Runtime/<Feature>/*SettingsAsset.cs`
-    - Stored as ScriptableObject assets
-
-- **Editor** pages:
-    - `Editor/Core/*` (infrastructure)
-    - `Editor/Pages/<Feature>/*Page.cs` (UI)
-
----
-
-## Tutorials (Recommended Workflow)
-
-Tutorials are defined as generic entries:
-- `id`: unique tutorial key
-- `triggerType`: OnGameStart, OnLevelStart, OnOpenUI, CustomEvent...
-- `customEventKey` / `uiId`: required depending on trigger type
-- `conditionKey`: optional filter interpreted by your game
-- `messageKey` / `content`: used by UI layer
-- `playOnce`: runtime should persist completion
-
-This design allows reuse across most game genres.
-
----
-
-## Validation
-
-Some settings assets implement `IValidatableSettings`.
-When the asset is edited in the window, validation warnings appear as a HelpBox.
-
-Common checks:
-- empty id
-- duplicate id
-- missing required fields (e.g., CustomEvent requires customEventKey)
-
----
-
-## Import/Export JSON
-
-Each settings asset supports JSON import/export using `EditorJsonUtility`.
-This is useful for:
-- sharing configs across projects
-- backups
-- quick iteration
-
----
-
-## Troubleshooting
-
-### “Type or namespace could not be found”
-Check `.asmdef` references for the page assembly:
-- The page asmdef must reference the runtime feature asmdef.
-  Example:
-- `HTDA.Framework.Settings.Editor.Ads` → references `HTDA.Framework.Settings.Ads`
-
-### Multiple asmdef in one folder
-Unity warns if one folder contains multiple asmdefs.
-Ensure each folder contains only one `.asmdef`.
+- Khi thêm page mới: tạo asmdef editor page (nếu bạn đang tách theo page) và đảm bảo references đúng.
